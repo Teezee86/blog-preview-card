@@ -1,0 +1,132 @@
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+html {
+	font-size: 15px;
+	max-height: 100vh;
+}
+:root {
+	--bg-white: hsl(0, 0%, 100%);
+	--font-fam: Figtree, sans-serif;
+	--font-black: hsl(0, 0%, 7%);
+	--font-grey: hsl(0, 0%, 50%);
+	--bg-main: hsl(47, 88%, 63%);
+	--card-bg: hsl(0, 0%, 50%);
+}
+body {
+	overflow: hidden;
+	font-family: var(--font-fam);
+}
+img,
+div,
+p,
+a,
+attribution {
+	position: relative;
+}
+.card-header-img__container,
+.card--white {
+	padding: 8px 10px;
+}
+.background--yellow {
+	background-color: var(--bg-main);
+	height: 100vh;
+}
+img {
+	aspect-ratio: 1 / 1;
+	margin: 10px 0 0;
+}
+.card-header__image {
+	top: -2px;
+	left: 9px;
+	width: 205px;
+	height: 143.5px;
+	border-radius: 8px;
+}
+.card--white {
+	box-shadow: 5px 6px 0px 0px;
+	background-color: var(--bg-white);
+	max-width: 243px;
+	height: 361px;
+	margin: auto;
+	border-radius: 16px;
+	top: 109px;
+	border: 1px solid;
+	transition: box-shadow ease 0.9s;
+}
+.card--white:hover {
+	box-shadow: 10px 15px 0 0;
+}
+.tag {
+	font-size: 0.56rem;
+	border-radius: 3px;
+	width: 54px;
+	top: 13px;
+	left: 6px;
+	text-align: center;
+	background-color: var(--bg-main);
+	font-weight: 900;
+	padding: 5px;
+}
+.time {
+	font-size: 0.6rem;
+	font-weight: 700;
+	margin: 11px 2px 0 0;
+	top: 11px;
+	left: 8px;
+}
+.navigation-link {
+	font-family: var(--font-fam);
+	font-size: 1rem;
+	font-weight: 900;
+	left: 8px;
+	top: 23px;
+	text-decoration: none;
+	color: var(--font-black);
+}
+.navigation-link:hover {
+	font-family: var(--font-fam);
+	color: var(--bg-main);
+	cursor: pointer;
+	text-shadow: 2px 1px 0 black;
+}
+.card__main-info {
+	line-height: 1.4em;
+	top: 33px;
+	left: 8px;
+	font-size: 0.69rem;
+	color: var(--font-grey);
+	font-weight: 500;
+}
+.author__image {
+	width: 24px;
+	top: 40px;
+	left: 10px;
+	display: flex;
+	float: left;
+}
+.author__name {
+	top: 56px;
+	left: 20px;
+	font-size: 0.7rem;
+	font-weight: 900;
+	padding-bottom: 20px;
+}
+.page-footer {
+	position: fixed;
+	bottom: 5%;
+	width: 100%;
+}
+.attribution {
+	margin-top: 0 auto;
+	font-size: 11px;
+	text-align: center;
+}
+.attribution a {
+	text-align: center;
+	color: hsl(228, 45%, 44%);
+}
