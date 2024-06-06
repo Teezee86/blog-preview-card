@@ -43,14 +43,14 @@ img {
 .card-header__image {
 	top: -2px;
 	left: 9px;
-	width: 205px;
+	width: 211px;
 	height: 143.5px;
 	border-radius: 8px;
 }
 .card--white {
 	box-shadow: 5px 6px 0px 0px;
 	background-color: var(--bg-white);
-	max-width: 243px;
+	max-width: 250px;
 	height: 361px;
 	margin: auto;
 	border-radius: 16px;
@@ -98,7 +98,7 @@ img {
 	line-height: 1.4em;
 	top: 33px;
 	left: 8px;
-	font-size: 0.69rem;
+	font-size: 0.7rem;
 	color: var(--font-grey);
 	font-weight: 500;
 }
